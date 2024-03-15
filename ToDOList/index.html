@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css_/style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+			<h1>TO-DO LIST</h1>
+		</header>
+		<button id="add-reminder-button" onclick="showInput()"> Adicionar lembrete + </button>
+		
+		<div id="reminder-input">
+			<input type="text" id="reminder-text" class="input-grande">
+			<button id="reminder-container" onclick="addReminder()"> ✔ </button>
+			<button id="reminder-container" onclick="closeInput()"> ✖ </button>
+		</div>
+		
+
+		<ul>
+		<div id="reminder-display"></div>
+		</ul>
+
+	</div>
+
+	<script src="js_/script.js"></script>
+
+</body>
+</html>
